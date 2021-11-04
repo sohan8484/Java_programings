@@ -19,14 +19,13 @@ public class PrintOnlyUnique {
 			//			compare the extracted character to the original string
 			for (int i = 0; i < s.length(); i++) {
 				//				if it is equals change the count to the increament
-				if(ch==s.charAt(i)) {
+				if(ch==s.charAt(i)) 
 					count++;
-				}
+				
 			}
 			//			print both character and count
-			if(count==1) {
+			if(count==1) 
 				System.out.print(ch);
-			}
 		}
 	}
 

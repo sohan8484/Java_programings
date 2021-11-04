@@ -2,7 +2,7 @@ package programingFile;
 
 import java.util.LinkedHashSet;
 
-public class RemoveDuplicates {
+public class RemoveDuplicatesCharacter {
 	public static void main(String[] args) {
 
 		String s="india";
