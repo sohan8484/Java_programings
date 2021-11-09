@@ -2,8 +2,8 @@ package programingFile;
 
 public class SwapinsUsing3rdVariable {
 public static void main(String[] args) {
-	int a= 343;
-	int b= 24;
+	int a= 5;
+	int b= 10;
 	int temp =a;
 	a=b;
 	b=temp;

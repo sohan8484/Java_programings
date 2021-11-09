@@ -12,7 +12,6 @@ public class PrintOnlyUnique {
 		for (int i = 0; i < s.length(); i++) {
 			hs.add(s.charAt(i));
 		}
-		//		int count=0;(3 4 6 8)
 		//		extract each character from the String
 		for(char ch:hs) {
 			int count=0;
