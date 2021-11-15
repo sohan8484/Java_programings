@@ -8,12 +8,11 @@ public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	int n= sc.nextInt();
 	int rev=0;
-	int a=n;
-	while (a!=0) {
-		rev=rev*10+(a%10);
-		a=a/10;
+	while (n!=0) {
+		rev=rev*10+(n%10);
+		n=n/10;
 	}
-	if(rev==a) {
+	if(rev==n) {
 		System.out.println("palindrome");
 		}
 	else
